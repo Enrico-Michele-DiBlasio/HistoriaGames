@@ -62,10 +62,10 @@ div.desc {
   text-align: center;
 }
 
-img {
-  opacity: 0.5;
+.bg-home {
+  background-image: url("../Img/ezio.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
 }
 
-img:hover {
-  opacity: 1.0;
-}
