@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assassin's Creed Unity</title>
+        <link rel="stylesheet" type="text/css" href="../../Style/Stili.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            input[type=text], select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+            }
+
+            input[type=submit] {
+            background-color: #04AA6D;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            }
+
+            input[type=submit]:hover {
+            background-color: #45a049;
+            }
+
+            .container {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+            }
+        </style>
+
+      <!-- bootstrap css -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    </head>
+    <body>
+        <!-- header -->
+        <div class="header txt-center container-fluid bg-success" style="--bs-bg-opacity: .7;">
+            <h1>HistoriaGames</h1>
+            <p>Le migliori opere videoludiche riunite in un unico sito.</p>
+          </div>
+          
+        <!-- nav -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="../../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../../catalogo.html">Catalogo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../../Introduzione-sito.html">Introduzione al Sito</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Ricerca Avanzata
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="../../pagine-ricerca/ricerca-catalogo.html">Ricerca per Periodo</a></li>
+                  <li><a class="dropdown-item" href="../../pagine-ricerca/ricerca-mappa.html">Ricerca per Luogo</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Ricerca nel Sito" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Ricerca</button>
+            </form>
+          </div>
+        </div>
+        </nav>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="../../catalogo.html">Catalogo</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Assassin's Creed 2007</li>
+            </ol>
+          </nav>
+
+        <div class="container-fluid bg-success padding-s" style="--bs-bg-opacity: .6;">
+            <div class="row">
+                <div class="col">
+                <h1>Assassins's Creed II</h1>
+                <img src="../../Img/img-ac/acII.png" alt="Assassins Creed" width="296" height="400">
+                <h2>Trailer</h2>
+                <p><iframe width="400" height="296" src="https://www.youtube.com/embed/?v=RjQ6ZtyXoA0"></iframe></p>
+                <p>Il video non parte? <a href="https://www.youtube.com/watch?v=RjQ6ZtyXoA0">Clicca qui!</a></p>
+                </div>
+                <div class="col">
+                    <h2>Informazioni su gioco:</h2>
+                    <p>Primo capitolo delle saga Assassin's Creed del 2007.</p>
+                    <h3>Storia:</h3>
+                    <p>Desmond Miles, viene rapito da una misteriosa compagnia Abstergo Industries, che lo connettono all'Animus, un macchinario che permette a Desmond di rivivere i ricordi di uno dei suoi anteneti, Altaïr Ibn-La'Ahad.
+                       Gioca nei panni di Altaïr, membro della Confraternita degli Assassini, durante il periodo delle crocieta nel XII.</p>
+                    <h3>Disponibilità:</h3>
+                    <p>PlayStation 3, Xbox 360, <a href="https://store.steampowered.com/app/15100/Assassins_Creed_Directors_Cut_Edition/">PC</a></p>
+                    <h3>Lascia un Commento!</h3>
+                    <div class="container bg-success" style="--bs-bg-opacity: .1;">
+                      <form action="/action_page.php">
+                        <textarea id="subject" name="subject" placeholder="Scrivi un commento..." style="height:200px"></textarea>                    
+                        <input type="submit" value="Invia">
+                      </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+          <!-- pre-footer -->
+          <section class="conteiner-fluid bg-light txt-center padding-s">
+            <div class="conteiner-fluid txt-center padding-s">
+                <span><a href="../../Crediti.html" title="Credits">Credits</a></span>
+                <span> | </span>
+                <span><a href="../../licenze.html" title="Licenze">Licenze</a></span>
+            </div>
+            </section>
+
+          <!--footer-->
+          <div class="footer bg-dark txt-center txt-light padding-md">
+            <h2>© Copyright | HistoriaGames</h2>
+          </div>
+
+        <!-- bootstrap js -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    </body>
+</html>
