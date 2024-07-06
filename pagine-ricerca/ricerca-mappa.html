@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Introduzione al Sito</title>
-        <link rel="stylesheet" type="text/css" href="Style/Stili.css" />
+        <title>HistoriaGames-Ricerca</title>
+        <link rel="stylesheet" type="text/css" href="../Style/Stili.css" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
       <!-- bootstrap css -->
@@ -16,7 +16,7 @@
             <p>Le migliori opere videoludiche storiche riunite in un unico sito.</p>
           </div>
           
-          <!-- nav -->
+          <!-- topnav -->
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,21 +25,21 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" aria-current="page" href="../index.html">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="catalogo.html">Catalogo</a>
+                    <a class="nav-link" aria-current="page" href="../catalogo.html">Catalogo</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Introduzione al Sito</a>
+                    <a class="nav-link" href="../Introduzione-sito.html">Introduzione al Sito</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Ricerca Avanzata
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="pagine-ricerca/ricerca-catalogo.html">Ricerca per Periodo</a></li>
-                      <li><a class="dropdown-item" href="pagine-ricerca/ricerca-mappa.html">Ricerca per Luogo</a></li>
+                      <li><a class="dropdown-item" href="ricerca-catalogo.html">Ricerca per Periodo</a></li>
+                      <li><a class="dropdown-item active" href="#">Ricerca per Luogo</a></li>
                     </ul>
                   </li>
                 </ul>
@@ -50,18 +50,28 @@
               </div>
             </div>
           </nav>
-            <div class="bg-success padding-md" style="--bs-bg-opacity: .5;">
-              <h2>Chi siamo:</h2>
-              <p><strong>HistoriGames</strong>, è un progetto amatoriale per l'Università di Bologna fatto da uno studete della <a href="https://corsi.unibo.it/laurea/storia" target="_blank">facoltà di Storia</a>.</p>
-              <P>Ogni immagine, contenuto audiovisivo non sono possedute da mia proprietà.</P>
-            </div>
+          <div class="container-fluid txt-center bg-success" style="--bs-bg-opacity: .5;">
+          <img src="../Img/Grey_worldmap.png" alt="World Map" usemap="#worldmap" width="1570" height="767">
+          <map name="worldmap">
+            <!-- russia-->
+            <area shape="poly" coords="863,109,1495,92,1353,270,1078,259,922,261,897,275,868,254,858,220" href="russia.html">
+            <!-- america-->
+            <area shape="poly" coords="192,278,535,286,247,357,420,389" href="america.html">
+            <!-- europa-->
+            <area shape="poly" coords="677,200,847,129,846,215,885,307,869,349,700,343" href="europa.html">
+            <!-- medio oriente e nord africa-->
+            <area shape="poly" coords="880,339,917,334,975,406,910,442,880,393,883,400,835,358" href="medio-oriente.html">
+             <!-- giappone-->
+             <area shape="poly" coords="1283,293,1325,299,1254,377,1227,354" href="giappone.html">
+          </map>
+          </div>
 
           <!-- pre-footer -->
           <section class="conteiner-fluid bg-light txt-center padding-s">
             <div class="conteiner-fluid txt-center padding-s">
-                <span><a href="Crediti.html" title="Credits">Credits</a></span>
+                <span><a href="../Crediti.html" title="Credits">Credits</a></span>
                 <span> | </span>
-                <span><a href="licenze.html" title="Licenze">Licenze</a></span>
+                <span><a href="../licenze.html" title="Licenze">Licenze</a></span>
             </div>
             </section>
 

@@ -2,6 +2,13 @@
   box-sizing: border-box;
 }
 
+ .bg-home {
+  background-image: url("../Img/ezio.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%; 
+} 
+
 .header h1 {
   font-size: 50px;
 }
@@ -41,31 +48,26 @@ nav li {
   color: #DDD;
 }
 
-div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
+/* Pagination links */
+.pagination a {
+  color: black;
   float: left;
-  width: 180px;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
 }
 
-div.gallery:hover {
-  border: 1px solid #777;
+/* Style the active/current link */
+.pagination a.active {
+  background-color: dodgerblue;
+  color: white;
 }
 
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
+/* Add a grey background color on mouse-over */
+.pagination a:hover:not(.active) {background-color: #ddd;}
 
-div.desc {
-  padding: 15px;
+.image-container {
+
   text-align: center;
-}
 
-.bg-home {
-  background-image: url("../Img/ezio.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100%;
 }
-
