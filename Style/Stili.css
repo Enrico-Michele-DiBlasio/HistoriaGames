@@ -96,10 +96,6 @@ input[type=text], select, textarea {
   cursor: pointer;
   }
 
-  input[type=submit]:hover {
-  background-color: #45a049;
-  }
-
   * {box-sizing: border-box}
 
   /* style the container */
